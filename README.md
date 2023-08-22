@@ -1,4 +1,4 @@
-# Petshop-JS
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/ed469d32-f240-47aa-8a60-27ebf6e12379)# Petshop-JS
 
 <h1>PetshopSite - Documentação do Projeto</h1>
 <h2>Visão Geral</h2>
@@ -43,3 +43,12 @@ O PetshopSite foi desenvolvido utilizando as seguintes tecnologias:
 Clone este repositório para sua máquina local.
 Configure o ambiente de banco de dados de acordo com as instruções no arquivo config/database.md.
 Abra o arquivo index.html em um navegador da web para acessar o site.
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/a828067b-93b9-4d65-858b-b3edcfd95bd4)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/33296d0c-7ee0-434a-bec5-e0fa7eff9fb5)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/50587f0d-5f1f-45a5-ab95-fc6ebc4dd9e6)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/26fc8c79-afda-4494-8b3a-f51fdac3d934)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/b5c5cf95-ed9a-4e06-a865-59308667b95c)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/67de3805-0c0f-47a9-9072-279d33c6d881)
+
+
+
