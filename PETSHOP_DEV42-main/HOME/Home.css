@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+#menu{
+    list-style: none;
+    padding: 10;
+    background-color: darkcyan;
+   
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    padding: 10px;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+
+#menu li a:hover{
+    color:coral;
+  text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+
+#menu li:last-child a{
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
+}
+
+body {
+    background-color: #ffd500;
+    color:rgb(0, 0, 0);
+}
+
+#bannerplan img{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#servicos{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#servicos a{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#servicos1 a{
+    padding: 10px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+#prodest img{
+    padding: 16px;
+}
+
+main.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+main.cards section.card{
+    background-color: rgb(209, 118, 0);
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+main.cards section.card h3{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+main.cards section.card span{
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(106, 240, 94);
+}

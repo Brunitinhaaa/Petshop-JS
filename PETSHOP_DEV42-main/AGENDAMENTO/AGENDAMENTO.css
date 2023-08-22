@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: #ffd500;
+    color:rgb(0, 0, 0);
+}
+
+.header {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#menu{
+    list-style: none;
+    padding: 10;
+    
+   
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    padding: 10px;
+    display: inline-block;
+    color: rgb(122, 0, 47);
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu li a:hover{
+    color:rgb(228, 0, 68);
+  text-shadow: 1px 1px 2px rgb(187, 42, 6), 0 0 25px rgb(53, 243, 5), 0 0 5px darkblue;
+}
+
+
+#menu li:last-child a{
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-radius: 25px;
+    float: right;
+    display: inline;
+}
+
+#header1 {
+    height: 300px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, sans-serif ;
+}
+
+#header-botao {
+    text-align: center;
+}
+#header5 {
+    text-align: center;
+    height: 550px;
+}
+
+.endereco{
+    padding: 20px;
+}
+
+#ende {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    line-height: 70px;
+    
+}
+
+.img_dog{
+    height: 450px;
+    float: right;
+    width: 40%;
+}
+
+.menu_agen{
+    letter-spacing: 3px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, sans-serif ;
+    background: #ff9500;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end:50px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+input[type ="date"]{
+    margin-left: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    
+    font: 30px sans-serif;
+    border: none;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffa200;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+  /*  width: 400px;*/
+
+}
+form div + div {
+    margin-top: 10px;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+ 
+    width: 500px;
+    text-align: left;
+
+}
+
+
+input   , input[type ="date"], select[id = consulta], select[id = estabeci] {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 35px sans-serif;
+
+ 
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 450px;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff8eb;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 500px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+    font-size: 1em;
+    background: #ff8800;
+    border: 0;
+    margin-top: 2em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    
+    transform: translate(-50%, -50%)
+}
