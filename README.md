@@ -1,5 +1,3 @@
-![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/ed469d32-f240-47aa-8a60-27ebf6e12379)# Petshop-JS
-
 <h1>PetshopSite - Documentação do Projeto</h1>
 <h2>Visão Geral</h2>
 O PetshopSite é um projeto desenvolvido no período de agosto de 2022 a novembro de 2022 como parte das atividades associadas à UNINOVE. Este projeto tem como objetivo criar um website para um pet shop, proporcionando aos clientes a capacidade de agendar consultas, agendamentos de banho e tosa, além de explorar informações sobre produtos e serviços oferecidos. O site também inclui páginas institucionais, como a página inicial, sobre, informações de usuário, vendas e veterinário.
@@ -49,6 +47,7 @@ Abra o arquivo index.html em um navegador da web para acessar o site.
 ![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/26fc8c79-afda-4494-8b3a-f51fdac3d934)
 ![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/b5c5cf95-ed9a-4e06-a865-59308667b95c)
 ![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/67de3805-0c0f-47a9-9072-279d33c6d881)
+![image](https://github.com/Brunitinhaaa/Petshop-JS/assets/104976135/ed469d32-f240-47aa-8a60-27ebf6e12379)
 
 
 
